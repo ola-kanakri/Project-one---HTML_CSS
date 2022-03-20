@@ -351,32 +351,3 @@ margin-left: 30px;
 
 }
 
-
-/*
-
-@media screen and (min-width: 480px) and (max-width: 768px)
-{ 
-
-.column {
-  width: 100%;
-  display: block;
-  margin-bottom: 20px;
-}
-.navbar-nav
-{width: 100%;
-  flex-direction: column;
- 
-}
-
-}
-
-
-@media screen and (max-width: 479px){
-.nav-link:hover{
-  border-bottom: none!important;}
-  .navbar-nav
-  {width: 100%;
-    flex-direction: column;
-   
-  }
-}*/

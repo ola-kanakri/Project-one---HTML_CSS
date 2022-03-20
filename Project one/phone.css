@@ -1,0 +1,153 @@
+
+
+@media screen and (max-width: 768px)
+{ 
+
+
+
+.navbar-nav
+{
+    display: flex;
+    align-items: center;
+    width: 70%;
+  flex-direction: column;
+  
+ 
+}
+
+
+
+
+
+.home
+{
+    width: 250%;
+    height: 1000px;
+
+
+}
+
+
+.about
+{
+    display: flex;
+    width: 250%;
+    height: 500px;
+   
+}
+.about .content
+{
+  text-align: center;
+  margin-left: 110px;
+}
+.about p
+{ 
+  
+  width: 25rem;
+  padding: 10px;
+  font-size: larger ;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+ 
+
+}
+
+.about .about_img img
+{
+  width: 250px;
+  height:250px; 
+  margin-right: 20px; 
+}
+
+
+.education
+{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 700px;
+}
+
+.education .content
+{
+  text-align: center;
+  margin-left: 150px;
+}
+
+.education p
+{ 
+  
+  width: 25rem;
+  padding: 10px;
+  font-size: larger ;
+
+  border: 15px solid #D3D3D3;
+ 
+}
+
+.education .education_img img
+{
+  width: 250px;
+  height:250px; 
+  margin-left: 200px; 
+}
+
+
+/****************************************************************************************************/  
+
+
+.skills
+{
+  background-color: #DAF7A6;
+  width: 250%;
+  height: 500px;
+}
+
+
+
+.card:hover 
+{
+  color: #a83279;
+  background-color: #c8e8e9;
+  position: relative;
+
+}
+
+
+}
+
+
+/****************************************************************************************************/ 
+
+.certifications
+{
+  background-color: #fff3e6;
+  width: 250%;
+  height: 500px;
+}
+
+
+.References {
+    width: 250%;
+    height: 500px;
+
+  }
+/****************************************************************************************************/ 
+  .contact
+  {
+   
+    display: flex;
+  
+    width: 250%;
+    height: 500px;
+  
+    
+  
+  }
+  .contact .contact-form-container .item2
+{
+  
+ 
+  margin-top: -200px;
+
+}
