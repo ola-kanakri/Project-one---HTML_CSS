@@ -33,9 +33,9 @@
       
     <!-- Navbar --> 
     <header >
-      <div class="menu-bar" >
+      <div class="menu-bar" style="position: fixed;">
         <nav class="navbar navbar-expand-lg navbar-light "  >
-          <a class="navbar-brand" href="#"><img src="Images/ok.png" alt="Logo" style="width: 70px; height:70px"></a>
+          <a class="navbar-brand" href="#"><span style="font-weight: bold; color: white;">Ola Kanakri</span></a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" ></span>
@@ -58,7 +58,10 @@
                 <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#certification">Certifications</a>
+                <a class="nav-link" href="#certifications">Certifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#languages">Languages</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#References">References</a>
@@ -69,11 +72,15 @@
             </ul>
           </div>
         </nav>
-      </div>
+      </div>     
     </header>
 
 
     <!-- Hero Section -->
+    <div class="home" id="home">
+   <div class="container-fluid" >
+      
+   
     <section class="hero" id="hero">
       <img
         src="Images/efwwefe-removebg-preview.png"
@@ -90,100 +97,135 @@
         
          
   
-      </div>
+      </div> </div>
 </section>
-
+    </div>
 
     <!-- More about -->
 
-    <section class="more-about" id="about">
-      <h2><strong>About Me</strong></h2>
+    <div class="about" id="about">
+      <div class="content">
+      <h2 ><strong>About Me</strong></h2>
       <p>
-        I'm a full-stack web developer with a background in computer systems and network infrastructure. My 5 years of Computer Engineering learning journey has given me a strong foundation for web development and building complex solutions. Recently, I graduated from the Orange Coding Academy Immersive Web Development Bootcamp. I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!</p>
+        I'm a full-stack web developer with a background in computer systems and network infrastructure.<br> I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!
       </p>
+    </div>
+
+    <div class="about_img">
+      <img src="Images/data.png" alt="">
+
+    </div>
+
     
-    </section>
+    </div>
 
 
     <!-- Education section -->
 
-    <section class="education" id="education">
-      <h2 class="education-header" style="text-align: center;"><strong>Education</strong></h2>
-
-<div class="card-container">
-
-  <div class="column">
-    <div class="card">
+    <div class="education" id="education">
+      <div class="content">
+      <h2 ><strong>Education</strong></h2>
     
       <p>B.Sc. in Computer Engineering Yarmouk university, Hijjawi faculty for engineering technology, Irbid, Jordan 2021.
         Computer Engineering is a branch of engineering that integrates several fields of computer science and electronic engineering required to develop computer hardware and software, CPE also introduce courses about encryption and cryptographic algorithm and information security.
         </p>
+      </div>
 
-
-    
-    </div>
-  </div>
+      <div class="education_img">
+        <img src="Images/certificate.png" alt="">
   
-</div>
-    </section><br><br>
+      </div>
+  
+      
+      </div>
+
 
 
 
     <!-- Skills section -->
-    <section class="skills" id="skills">
+
+    <div class="skills" id="skills">
+
       <h2 class="skill-header" style="text-align: center;"><strong>Skills</strong></h2>
      
-<div class="card-container">
+    <div class="card-container">
 
-  <div class="column">
-    <div class="card">
-      <h3>Technical Skills</h3>
-      <p>Bootstrap</p>
-      <p>Media query</p>
-      <p>Design of Dedicated Digital Systems & Microprocessors (FPGA), PLC, Microcontroller & Embedded System.</p>
+      <div class="column">
+        <div class="card">
+          <div class="technical">
+          <h3><b>Technical Skills</b></h3>
+          <img src="Images/programing.png" alt=""><br><br>
+         
+           <p> HTML5</p>
+           <p> CSS3</p>
+           <p> JavaScript</p>
+           <p> Bootstrap</p>
+         
+        </div>
+      </div>
     </div>
-  </div>
   
 
   <div class="column">
     <div class="card">
-      <h3>Soft Skills</h3>
-      
-      <p>Excellent in English, Fluent in Arabic.</p>
-      <p>Excellent troubleshooting and problem-solving skills.</p>
-      <p>Solid management skills and analytical thinker.</p>
+      <div class="technical">
+        <h3><b>Soft Skills</b></h3>
+        <img src="Images/competence.png" alt=""><br><br>
+      <p>Presentation skills.</p>
+      <p>Communication skills.</p>
+      <p>Problem-solving .</p>
+      <p>Analytical thinker.</p>
     </div>
+  </div>
   </div>
   
 </div>
-    </section><br><br>
+</div><br><br>
+
+
+
+
 
        <!-- Certification section -->
 
-       <section class="certification" id="certification">
-        <h2 class="certification-header" style="text-align: center;"><strong>Certification</strong></h2>
+       <div class="certifications" id="certifications">
+
+        <h2 class="certifications-header" style="text-align: center;"><strong>Certifications</strong></h2>
+       
+      <div class="card-container">
   
-  <div class="card-container">
+        <div class="column">
+          <div class="card">
+
+            <div class="technical">
+            <h3><b>Yarmouk University</b></h3>
+            <img src="Images/Yarmouk.png" alt=""><br><br>
+           
+             <p><span style="font-weight: bold;">B.Sc. in Computer Engineering </span> Yarmouk university, Hijjawi faculty for engineering technology, Irbid, Jordan 2021.</p>
+
+           
+          </div>
+        </div>
+      </div>
+    
   
     <div class="column">
       <div class="card">
-      
-        <ul style="margin-left:7px ;">
-          <li>B.Sc. in Computer Engineering Yarmouk university, Hijjawi faculty for engineering technology, Irbid, Jordan 2021.</li>
-          <li>Orange Coding Academy Immersive Web Development Bootcamp</li>
-        </ul>
-  
-  
-      
+        <div class="technical">
+          <h3><b>Orange</b></h3>
+          <img src="Images/Orange.png" alt=""><br><br>
+        <p><span style="font-weight: bold;">Orange Coding Academy</span> Immersive Web Development Bootcamp <br> Febreuary-2022 to September-2022</p>
+
       </div>
+    </div>
     </div>
     
   </div>
-      </section><br><br>
+  </div><br><br>
   
 
 
-<!-- Recommendations section -->
+<!-- References section -->
 
 <section class="References" id="References">
   <h2 class="References-header" style="text-align: center;"><strong>References</strong></h2>
@@ -192,20 +234,22 @@
 
 <div class="column">
 <div class="card">
-  <!--<img src="competence.png" alt="Avatar" style="width:100%">-->
-  
-  <h3>Hala Obeidat</h3>
+ 
+  <img src="Images/Orange.png" alt="">
+  <h3><strong>Hala Obeidat</strong></h3>
   <p>
     Position: Job Coach at Orange Coding Academy.<br>
     Email: hala_12_6@yahoo.com<br>
-    Phone number: 0776809087</p>
+    Phone number: 0776809087</p><br>
 </div>
 </div>
 
 
 <div class="column">
 <div class="card" >
-  <h3> Hala Hamdan </h3>
+  <img src="Images/Orange.png" alt="">
+  <h3><strong>Hala Hamdan</strong>  </h3>
+
   <p>
     Position: full stack web development trainer @ Orange coding academy <br>
     Email: hala.ali.hamdan@gmail.com <br>
@@ -215,7 +259,8 @@
 
 <div class="column">
   <div class="card" >
-    <h3> Alaa Qazaq </h3>
+    <img src="Images/Orange.png" alt="">
+    <h3><strong>Alaa Qazaq</strong>  </h3>
     <p>
       Position: full stack web development trainer @ Orange coding academy <br>
       
@@ -232,46 +277,41 @@
 
     <!-- Contact section -->
 
-    <section class="contact" id="contact">
-      <h2 style="margin-left: 10px;"> <strong>Contact Me</strong></h2>
+    <div class="contact" id="contact">
+      <h2 style="padding-left: 50px;"> <strong>Contact </strong></h2>
 
       <div class="contact-form-container" >
-        <div class="contact-form">
-          <div class="left-side">
+       
+       
 
           <!-- Address details-->
-          <div class="address details">
+          <div class="address details" style="   display: inline-block;  padding: 20px;">
             <i class="fa fa-map-marker-alt"></i>
             <div class="topic">Address</div>
             <div class="text-one">Amman, NP25</div>
-            <div class="text-two">Irbid, NP15</div>
           </div>
 
           <!-- Phone details-->
-          <div class="phone details">
+          <div class="phone details"style="   display: inline-block; padding: 20px;">
             <i class="fa fa-phone-alt"></i>
             <div class="topic">Phone</div>
             <div class="text-one">+962 778 091 890</div>
           </div>
 
           <!-- email details-->
-          <div class="phone details">
+          <div class="phone details"style="   display: inline-block; padding: 20px;">
             <i class="fa fa-envelope"></i>
             <div class="topic">Email</div>
             <div class="text-one">ola.kanakri12@gmail.com</div>
           </div>          
-          </div><!--End of the left side-->
+         
 
-          
-
-
-        </div>
       </div>
         
       
               
  
-</section>
+</div>
 
 
 </body>
