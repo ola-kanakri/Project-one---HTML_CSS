@@ -1,157 +1,249 @@
 
 
-@media screen and (max-width: 768px)
-{ 
-
-
-
-.navbar-nav
+@media screen and (max-width: 480px)
 {
-    display: flex;
-    align-items: center;
-    width: 70%;
-  flex-direction: column;
-  
- 
+
+
+      
+
+.menu-bar
+{
+    width: 100%;  
+
 }
 
-
-
-
-
+/*//////////////////////////////////////////////////////////////*/
 .home
 {
-    width: 250%;
-    height: 1000px;
-
-
+    height:300px;
+    background-size: cover;
+}
+.hero img
+{
+    margin-top: 70px;
+    margin-left: 10px;
+    width: 8.5rem;
+    height: 8.5rem
+    
 }
 
+.bio h1 
+{
+    font-size: 20px;
+    margin-top: 90px;
+    
+}
+.bio h2 
+{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+/*//////////////////////////  About  ////////////////////////////////////*/
 
 .about
 {
+    width:100%; height:330px;
+
     display: flex;
-    width: 250%;
-    height: 500px;
-   
+    justify-content: center;
+
 }
 .about .content
 {
-  text-align: center;
-  margin-left: 110px;
+    margin-left: -68px;
 }
-.about p
-{ 
+
+.content h2
+{
   
-  width: 25rem;
-  padding: 10px;
-  font-size: larger ;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
- 
+    font-size: 20px;
+    padding-left: 80px;
+    text-align: center;
+}
+
+.content p 
+{
+    font-size: 15px;
+    padding-left: 90px;
+    text-align: center;
 
 }
 
 .about .about_img img
 {
-  width: 250px;
-  height:250px; 
-  margin-right: 20px; 
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
 }
 
 
+/*/////////////////////////  Education  /////////////////////////////////////*/
 .education
 {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  width: 100%;
-  height: 700px;
+     
+    height:350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+   
+    margin-top: 40px;
+    
+    
 }
+
 
 .education .content
 {
-  text-align: center;
-  margin-left: 150px;
-}
-
-.education p
-{ 
-  
-  width: 25rem;
-  padding: 10px;
-  font-size: larger ;
-
-  border: 15px solid #D3D3D3;
- 
+   margin-right: -200px;
+   
 }
 
 .education .education_img img
-{
-  width: 250px;
-  height:250px; 
-  margin-left: 200px; 
+{    
+    width: 0px;
+    height: 0px;
 }
 
 
-/****************************************************************************************************/  
+.education .content h2
+{
+   padding-right: 70px;
+
+}
+
+
+.education .content p
+{ 
+  
+  width: 20rem;
+  padding: 10px;
+  font-size: 15px ;
+  margin-top: 20px;
+  border: 10px solid #D3D3D3;
+  
+ 
+}
+
+
+/*/////////////////////////  Skills  /////////////////////////////////////*/
 
 
 .skills
 {
-  background-color: #DAF7A6;
-  width: 250%;
-  height: 500px;
+    height:800px;
+    width: 100%;
+   
 }
 
-
-
-.card:hover 
+.card-container
 {
-  color: #a83279;
-  background-color: #c8e8e9;
-  position: relative;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 10px;
 
+    padding: 10px;
 }
 
 
 
+.card
+{
+    font-size: 15px;
+    width: 300px;
+    
+}
+.technical h3
+{
+    font-size: 20px; 
+}
+.card-container .column .card .technical img
+{
+    width: 30px;
+    height: 30px;
+}
 
-
-/****************************************************************************************************/ 
+/*/////////////////////////  Certifications  /////////////////////////////////////*/
 
 .certifications
 {
-  
-  width: 250%;
-  height: 500px;
+    height: 700px;
 }
 
 
-.References {
-    width: 250%;
-    height: 500px;
-
-  }
-/****************************************************************************************************/ 
-  .contact
-  {
-   
-
-  
-    width: 250%;
-    height: 500px;
-  
-    
-  
-  }
-  .contact .contact-form-container .item2
+/*/////////////////////////  References  /////////////////////////////////////*/
+.card-container_Ref
 {
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 10px;
+    
+    padding: 10px;
+    margin-left: 0px;
+
+    justify-content: center;
   
- 
-  margin-top: -200px;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    width: 300px;
+   
+    }
+  
+  .card1 img
+  {
+    width: 70px;
+    height: 70px;
+  }
+
+/*/////////////////////////  Footer  /////////////////////////////////////*/
+
+.contact
+{
+    width: 100%;
+    height: 300px;
 
 }
 
+.contact h2{font-size: 15px;margin-left: -30px; font-weight: bolder;}
 
+
+.contact .item1
+{
+    height:300px ;
+    font-size: 10px;
+
+    
+    display: grid;
+    grid-template-columns: auto ;
+
+    margin-left: 25px;
+    
+
+ 
+}
+
+.contact .item1 .address-Details
+{
+    margin: 0px;
+    margin-top: 45px;
+  
+}
+
+
+.contact .item2
+{
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
 
 }

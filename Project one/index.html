@@ -9,6 +9,7 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="Tablet.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
     <!-- Fontawesome CDN Link -->
@@ -36,7 +37,7 @@
     <header >
       <div class="menu-bar" style="position: fixed;">
         <nav class="navbar navbar-expand-lg navbar-light "  >
-          <a class="navbar-brand" href="#"><span style="font-weight: bold; color: white;">Ola Kanakri</span></a>
+          <a class="navbar-brand" href="#" style="font-weight: bold; color: white;">Ola Kanakri</a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" ></span>
@@ -74,74 +75,68 @@
     </header>
 
 
-    <!-- Hero Section -->
-    <div class="home" id="home">
-   <div class="container-fluid" >
-      
+<!-- Hero Section -->
+
+<div class="home" id="home">
+  
+
+  <div class="container-fluid" >
+    
+  
+   <div class="hero" id="hero">
+     <img
+       src="Images/efwwefe-removebg-preview.png"
+       alt="jane-doe"
+       loading="lazy"
+       class="hero-img"
+     />
+
+     <div class="bio animate__animated animate__shakeX">
+       <h1 class="bio-title"><b>I am Ola.. </b> </h1>
+     
+       <h2>Computer Engineer</h2>
+     </div> 
+ 
+     </div> 
+    </div>
+ </div>  
+ 
+
+ <!-- More about -->
+ 
+ <div class="about" id="about">
+  <div class="content">
+  <h2 ><strong>About Me</strong></h2>
+  <p>
+    I'm a full-stack web developer with a background in computer systems and network infrastructure.<br> I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!
+  </p>
+</div>
+
+<div class="about_img">
+  <img src="Images/data.png" alt="">
+
+</div></div>  
+
+ <!-- Education section -->
    
-    <section class="hero" id="hero">
-      <img
-        src="Images/efwwefe-removebg-preview.png"
-        alt="jane-doe"
-        loading="lazy"
-        class="hero-img"
-      />
-      <div class="bio animate__animated animate__shakeX">
-        <h1 class="bio-title"><b>I am Ola.. </b> </h1>
-      
-        <h2>Computer Engineer</h2>
+ <div class="education" id="education">
+  <div class="content">
+  <h2 ><strong>Education</strong></h2>
 
-        <!--<p class="bio-text"></p>-->
-        
-         
-  
-      </div> </div>
-</section>
-    </div>
+  <p><strong> B.Sc. in Computer Engineering Yarmouk university, Hijjawi faculty for engineering technology, Irbid, Jordan 2021.</strong>
+    <br>Computer Engineering is a branch of engineering that integrates several fields of computer science and electronic engineering required to develop computer hardware and software, CPE also introduce courses about encryption and cryptographic algorithm and information security.
+    </p>
+  </div>
 
-    <!-- More about -->
+  <div class="education_img">
+    <img src="Images/certificate.png" alt=""></div>
 
-    <div class="about" id="about">
-      <div class="content">
-      <h2 ><strong>About Me</strong></h2>
-      <p>
-        I'm a full-stack web developer with a background in computer systems and network infrastructure.<br> I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!
-      </p>
-    </div>
-
-    <div class="about_img">
-      <img src="Images/data.png" alt="">
-
-    </div>
-
-    
-    </div>
-
-
-    <!-- Education section -->
-
-    <div class="education" id="education">
-      <div class="content">
-      <h2 ><strong>Education</strong></h2>
-    
-      <p><strong> B.Sc. in Computer Engineering Yarmouk university, Hijjawi faculty for engineering technology, Irbid, Jordan 2021.</strong>
-        <br>Computer Engineering is a branch of engineering that integrates several fields of computer science and electronic engineering required to develop computer hardware and software, CPE also introduce courses about encryption and cryptographic algorithm and information security.
-        </p>
-      </div>
-
-      <div class="education_img">
-        <img src="Images/certificate.png" alt="">
-  
-      </div>
-  
-      
-      </div>
+</div>
 
 
 
-
-    <!-- Skills section -->
-
+<!---------------------------- Skills section ---------------------------->
+ 
     <div class="skills" id="skills">
 
       <h2 class="skill-header" style="text-align: center;"><strong>Skills</strong></h2>
@@ -178,13 +173,11 @@
   </div>
   
 </div>
-</div><br><br>
+</div>
 
 
 
-
-
-       <!-- Certification section -->
+<!---------------------------- Certification section ---------------------------->
 
        <div class="certifications" id="certifications">
 
@@ -196,7 +189,7 @@
           <div class="card">
 
             <div class="technical">
-            <h3><b>Yarmouk University</b></h3>
+            <h3><b>Yarmouk University</b></h3><br>
             <img src="Images/Yarmouk.png" alt=""><br><br>
            
              <p><span style="font-weight: bold;">B.Sc. in Computer Engineering </span> Yarmouk university, Hijjawi faculty for engineering technology, Irbid, Jordan 2021.</p>
@@ -210,7 +203,7 @@
     <div class="column">
       <div class="card">
         <div class="technical">
-          <h3><b>Orange</b></h3>
+          <h3><b>Orange</b></h3><br>
           <img src="Images/Orange.png" alt=""><br><br>
         <p><span style="font-weight: bold;">Orange Coding Academy</span> Immersive Web Development Bootcamp <br> Febreuary-2022 to September-2022</p>
 
@@ -220,7 +213,7 @@
     
   </div>
   </div><br><br>
-  
+
 
 
 <!-- References section -->
@@ -228,131 +221,115 @@
 <section class="References" id="References">
   <h2 class="References-header" style="text-align: center;"><strong>References</strong></h2>
 
-<div class="card-container">
+<div class="card-container_Ref">
 
 <div class="column">
-<div class="card">
+<div class="card1">
  
   <img src="Images/Orange.png" alt="">
   <h3><strong>Hala Obeidat</strong></h3>
   <p>
-    Position: Job Coach at Orange Coding Academy.<br>
-    Email: hala_12_6@yahoo.com<br>
-    Phone number: 0776809087</p><br>
+    <br>  Position: Job Coach at Orange Coding Academy.<br>
+    <br>  Email: hala_12_6@yahoo.com<br>
+    <br> Phone number: 0776809087</p><br><br>
 </div>
 </div>
 
 
 <div class="column">
-<div class="card" >
+<div class="card1" >
   <img src="Images/Orange.png" alt="">
   <h3><strong>Hala Hamdan</strong>  </h3>
 
   <p>
-    Position: full stack web development trainer @ Orange coding academy <br>
-    Email: hala.ali.hamdan@gmail.com <br>
-    Phone number: 0776802579</p>
+    <br> Position: full stack web development trainer @ Orange coding academy <br>
+    <br> Email: hala.ali.hamdan@gmail.com <br>
+    <br> Phone number: 0776802579</p><br>
  </div>
 </div>
 
 <div class="column">
-  <div class="card" >
+  <div class="card1" >
     <img src="Images/Orange.png" alt="">
     <h3><strong>Alaa Qazaq</strong>  </h3>
     <p>
-      Position: full stack web development trainer @ Orange coding academy <br>
+      <br>  Position: full stack web development trainer @ Orange coding academy <br>
       
-       Email: qazaq.alaa@gmail.com<br>
+      <br> Email: qazaq.alaa@gmail.com<br>
       
-       Phone number: 0776807230</p>
+       <br> Phone number: 0776807230 </p><br><br>
    </div>
   </div>
 
 </div>
-</section><br><br>
+</section><br><br>  
 
+<!-------------------------- Contact section ------------------------------->
 
+ <div class="contact" id="contact">
 
-    <!-- Contact section -->
+  <h2> <strong>Contact </strong></h2>
 
-    <div class="contact" id="contact">
-      <h2 style="padding-left: 50px;"> <strong>Contact </strong></h2>
-
-
-      <div class="contact-form-container" >
-       
-       
-<div class="item1">
-          <!-- Address details-->
-          <div class="address details" style="   display: inline-block;  padding: 20px;">
-            <i class="fa fa-map-marker-alt"></i>
-            <div class="topic">Address</div>
-            <div class="text-one">Amman, NP25</div>
-          </div>
-
-          <!-- Phone details-->
-          <div class="phone details"style="   display: inline-block; padding: 20px;">
-            <i class="fa fa-phone-alt"></i>
-            <div class="topic">Phone</div>
-            <div class="text-one">+962 778 091 890</div>
-          </div>
-
-          <!-- email details-->
-          <div class="phone details"style="   display: inline-block; padding: 20px;">
-            <i class="fa fa-envelope"></i>
-            <div class="topic">Email</div>
-            <div class="text-one">ola.kanakri12@gmail.com</div>
-          </div>          
-         
-        </div>
-
-        <div class="item2">
-        
-
-        <ul >
-          <li>
-            <a href="#hero">Home </a>
-          </li>
-          <li>
-            <a  href="#about">About</a>
-          </li>
-          <li >
-            <a  href="#education">Education</a>
-          </li></ul>
-
-          <ul >
-          <li >
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a  href="#certifications">Certifications</a>
-          </li>
-          <li >
-            <a  href="#References">References</a>
-          </li>
-          </ul>
-          <ul  >
-          <li >
-            <a  href="#contact">Contact me</a>
-          </li>
-        </ul>
-      </div>
-      </div>
-        
-      
-              
  
-</div>
+<div class="item1">
+     
+      <div class="address-Details">
+        <i class="fa fa-map-marker-alt"></i>
+        <div class="topic">Address</div>
+        <div class="text-one">Amman, NP25</div>
+      </div>
 
-</div>
-</body>
-</html>
+     
+      <div class="phone-Details"   >
+        <i class="fa fa-phone-alt"></i>
+        <div class="topic">Phone</div>
+        <div class="text-one">+962 778 091 890</div>
+      </div>
 
+     
+      <div class="email-Details">
+        <i class="fa fa-envelope"></i>
+        <div class="topic">Email</div>
+        <div class="text-one">ola.kanakri12@gmail.com</div>
+      </div>          
+     
+    </div>
 
-             
-
-
+    <div class="item2">
     
+
+    <ul >
+      <li>
+        <a href="#hero">Home </a>
+      </li>
+
+      <li>
+        <a  href="#about">About</a>
+      </li>
+
+      <li >
+        <a  href="#education">Education</a>
+      </li></ul>
+
+      <ul >
+        <li >
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a  href="#certifications">Certifications</a>
+        </li>
+        <li >
+          <a  href="#References">References</a>
+        </li>
+      </ul>
+
+  </div>  
+</div>        
+
+
+
+
+
   </body>
 </html>
 
