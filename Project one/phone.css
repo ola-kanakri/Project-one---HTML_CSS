@@ -3,13 +3,11 @@
 @media screen and (max-width: 480px)
 {
 
-
       
 
 .menu-bar
 {
     width: 100%;  
-
 }
 
 /*//////////////////////////////////////////////////////////////*/
@@ -48,11 +46,12 @@
 
     display: flex;
     justify-content: center;
+    
 
 }
 .about .content
 {
-    margin-left: -68px;
+    margin-left: -80px;
 }
 
 .content h2
@@ -135,7 +134,7 @@
 {
     height:800px;
     width: 100%;
-   
+    margin-left: -5px;
 }
 
 .card-container
@@ -145,6 +144,7 @@
     grid-gap: 10px;
 
     padding: 10px;
+   
 }
 
 
@@ -170,10 +170,17 @@
 .certifications
 {
     height: 700px;
+    margin-left: -5px;
 }
 
 
 /*/////////////////////////  References  /////////////////////////////////////*/
+
+.References
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
 .card-container_Ref
 {
     display: grid;
@@ -184,6 +191,8 @@
     margin-left: 0px;
 
     justify-content: center;
+  
+
   
 }
 
@@ -241,7 +250,7 @@
 .contact .item2
 {
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 20px;
 
 }
